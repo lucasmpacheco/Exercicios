@@ -28,6 +28,8 @@ void Verifica(uint8_t num){
         printf("O bit menos significativo é 1. \nInvertendo todos os bits... \nNúmero invertido: ");
         num = ~num;
         print(num);
+    } else {
+        printf("O bit menos significativo esta inativo");
     }
 }
 int main(){
